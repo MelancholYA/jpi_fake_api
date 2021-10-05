@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"name": "killer bundle 19",
-			"genre": "action",
+			"genre": 0,
 			"platform": ["Steam", "Origin"],
 			"subPlatform": [],
 			"Publisher": "Konami",
@@ -11,11 +11,124 @@
 			"description": "<p>The KILLER collection that you’ve been waiting for… An explosive, highly-rated roster of games is yours for the taking in the brand-new Killer Bundle 19!</p><p>Wage war, have fun with friends, explore outer space, and much more with this selection of nine Steam PC games + DLC across two tiers. Featuring popular picks rated by fellow gamers, Killer Bundle 19 is full to the brim with action-packed gameplay that’ll slay those boring days and offer a great variety to your games library.</p><p>Solve intricate puzzles and tackle menacing bosses in the ‘Very Positive’ rated pixel-style action platformer Iconoclasts; experience a deep and complex class system as you seek to stabilize a fantasy steampunk world in the multi-award-winning tactical strategy RPG Fell Seal: Arbiter's Mark; and ready your saber and keep your gas mask close as you battle through the trenches in WWI FPS Tannenberg.</p><p>Explore dynamic worlds where your skills will be ‘putt’ to the test in multiplayer sports sim Golf It!; choose from unique classes and battle through procedurally generated levels to reach the Forsaken Spire in top-down roguelite Heroes of Hammerwatch; and step aboard a space station where you’ll follow a gripping story of trust, fear, and disaster from those who were here before you in the critically-acclaimed sci-fi adventure Tacoma.</p><p>Expand your empire, research technologies, and ultimately become ruler of the world in the ‘Overwhelmingly Positive’ rated turn-based strategy The Battle of Polytopia - Deluxe, including four DLCs; and take control of a huge range of awesome vehicles and cause chaos in over-the-top, open-world levels in sandbox racer Crash Drive 3.</p><p>Get the full Killer experience by purchasing Tier Two, unlocking all nine Steam PC games and even more DLC. Take on the role of an American sniper as you go behind enemy lines with the ultimate modern military shooter in Sniper Ghost Warrior 3 - Season Pass Edition. Including the action FPS base game and six DLCs featuring extra campaigns &amp; expansions and additional weapons.</p><p>Nothing but highly-rated, entertaining games. Don’t miss the new and exclusive Killer Bundle 19!<p/>"
 		}
 	],
-	"Platforms": [
-		"Steam",
-		"Origin",
-		"Uplay",
-		"Microsoft store",
-		"Epic Games Store"
+	"genres": [
+		{ "name": "Action", "id": 0 },
+		{ "name": "Adventure", "id": 1 },
+		{ "name": "Casual", "id": 2 },
+		{ "name": "Fighting", "id": 3 },
+		{ "name": "First-person", "id": 4 },
+		{ "name": "Horror", "id": 5 },
+		{ "name": "Indie", "id": 7 },
+		{ "name": "Kids & Family", "id": 8 },
+		{ "name": "MMO", "id": 9 },
+		{ "name": "Puzzle", "id": 10 },
+		{ "name": "Sports & Racing", "id": 11 },
+		{ "name": "Simulation", "id": 12 },
+		{ "name": "Strategy", "id": 13 }
+	],
+	"platforms": [
+		{
+			"name": "PC",
+			"id": 0,
+			"subs": [
+				{
+					"name": "Steam",
+					"id": 0,
+					"subs2": [
+						{
+							"id": 0,
+							"name": "Games"
+						},
+						{
+							"id": 1,
+							"name": "Steam Wallets"
+						}
+					]
+				},
+				{
+					"name": "Origin",
+					"id": 1,
+					"subs2": [
+						{
+							"id": 0,
+							"name": "Games"
+						},
+						{
+							"id": 0,
+							"name": "Gift Cards"
+						},
+						{
+							"id": 0,
+							"name": "EA Play Basic"
+						},
+						{
+							"id": 0,
+							"name": "EA Play Pro"
+						}
+					]
+				},
+				{
+					"name": "Uplay",
+					"id": 2
+				},
+				{
+					"name": "Epic Games Store",
+					"id": 3
+				},
+				{
+					"name": "Rockstar Social Club",
+					"id": 4
+				},
+				{
+					"name": "Microsoft Store",
+					"id": 5
+				}
+			]
+		},
+		{
+			"name": "Xbox",
+			"id": 1,
+			"subs": [
+				{ "name": "Games", "id": 0 },
+				{ "name": "Gift Cards", "id": 1 },
+				{ "name": "Memberships", "id": 2 }
+			]
+		},
+		{
+			"name": "Playstation",
+			"id": 2,
+			"subs": [
+				{
+					"name": "Games",
+					"id": 0
+				},
+				{
+					"name": " Gift Cards ",
+					"id": 1
+				},
+				{
+					"name": "PS Plus",
+					"id": 2
+				},
+				{
+					"name": "PS Now",
+					"id": 3
+				}
+			]
+		},
+		{
+			"name": "Nintendo",
+			"id": 3,
+			"subs": [
+				{
+					"name": "Nintendo eShop ",
+					"id": 0
+				},
+				{
+					"name": "Nintendo Online",
+					"id": 1
+				}
+			]
+		}
 	]
 }
