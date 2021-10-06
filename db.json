@@ -130,5 +130,27 @@
 				}
 			]
 		}
+	],
+	"playerSupport": [
+		{
+			"id": 0,
+			"name": "Cooperative"
+		},
+		{
+			"id": 1,
+			"name": "LAN"
+		},
+		{
+			"id": 2,
+			"name": "Local & Party"
+		},
+		{
+			"id": 3,
+			"name": "Multiplayer"
+		},
+		{
+			"id": 4,
+			"name": "Singleplayer"
+		}
 	]
 }
