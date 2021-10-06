@@ -54,15 +54,15 @@
 							"name": "Games"
 						},
 						{
-							"id": 0,
+							"id": 1,
 							"name": "Gift Cards"
 						},
 						{
-							"id": 0,
+							"id": 2,
 							"name": "EA Play Basic"
 						},
 						{
-							"id": 0,
+							"id": 3,
 							"name": "EA Play Pro"
 						}
 					]
